@@ -1,4 +1,4 @@
-﻿## MOEA Framework ##
+## MOEA Framework ##
 
 **Visit our website at [http://moeaframework.org](http://moeaframework.org)
 for downloads, documentation, and examples.**
@@ -34,6 +34,23 @@ contact us if you are interested in contributing!
 
 The latest release can be downloaded from our [website](http://moeaframework.org)
 or from the [releases page](https://github.com/MOEAFramework/MOEAFramework/releases).
+
+This repository contains customized Maven builds. You can use them with:
+
+    <dependency>
+        <groupId>me.datato</groupId>
+        <artifactId>moeaframework</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+    <repository>
+        <id>moeaframework</id>
+        <url>https://raw.github.com/isilvalun/MOEAFramework/mvn-repo/</url>
+    </repository>
+
+This is just for convenience. 
+Official David Hadka Maven repository should be used with the following instructions:
+
 Maven users can add our dependency to their `pom.xml` file:
 
     <dependency>
